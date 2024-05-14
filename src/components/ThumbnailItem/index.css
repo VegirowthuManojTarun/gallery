@@ -1,0 +1,24 @@
+/* Write your code here. */
+button {
+  height: 110px;
+  width: 112px;
+  border-width: 0px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  opacity: 0.6;
+}
+.img:hover {
+  opacity: 1;
+}
+
+@media (min-width:768px){
+  button {
+  height: 100px;
+  width: 100px;
+} 
+}
